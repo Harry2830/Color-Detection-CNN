@@ -1,2 +1,2 @@
-[phases]
-start = "python manage.py runserver 0.0.0.0:5000"  # adjust for Django
+[phases.start]
+cmd = "python manage.py runserver 0.0.0.0:5000"
