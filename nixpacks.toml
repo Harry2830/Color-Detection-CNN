@@ -1,5 +1,5 @@
 [phases.start]
-cmd = "python manage.py runserver 0.0.0.0:5000"
+cmd = "python manage.py runserver 0.0.0.0:5000"  # Use Flask start command if that's applicable
 
 [setup]
 engine = "python"
