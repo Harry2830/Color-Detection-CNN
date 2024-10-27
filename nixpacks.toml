@@ -3,4 +3,4 @@ cmd = "python manage.py runserver 0.0.0.0:5000"  # Use Flask start command if th
 
 [setup]
 engine = "python"
-version = "3.10"
+version = "3.8"
