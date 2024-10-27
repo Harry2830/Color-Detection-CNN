@@ -1,3 +1,6 @@
+[phases.setup]
+pkgs = ["...", "python310"]
+
 [phases.start]
 cmd = "python manage.py runserver 0.0.0.0:5000"  # Use Flask start command if that's applicable
 
