@@ -5,8 +5,8 @@ import numpy as np
 import os
 
 # Load the CNN model
-custom_objects = {'reduction': None}  # Adjust as necessary
-model = load_model('cnn.h5', custom_objects=custom_objects)
+# custom_objects = {'reduction': None}  # Adjust as necessary
+model = load_model('cnn.h5')
 
 # Define class names
 CLASS_NAMES = ['black', 'transparent', 'color']
