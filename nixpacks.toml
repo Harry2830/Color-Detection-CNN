@@ -1,5 +1,6 @@
 [phases.setup]
-pkgs = ["python310", "flask", "tensorflow==2.10.1"]  # Add any other packages you need
+engine = "python"
+version = "3.10"
 
 
 [phases.start]
